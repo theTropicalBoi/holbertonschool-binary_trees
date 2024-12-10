@@ -23,10 +23,13 @@ typedef struct binary_tree_s
 	struct binary_tree_s *right;
 } binary_tree_t;
 
-/* Also used on line 24 */
 /* typedef struct binary_tree_s binary_tree_t; */
+
+/* Prototype Signature for print binary tree function */
+void binary_tree_print(const binary_tree_t *);
 
 /* Prototype Signature: */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
 #endif
+ 
